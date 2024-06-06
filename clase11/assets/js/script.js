@@ -85,7 +85,7 @@ toastTrigger.addEventListener('click', function() {
 
 offcanvasExample.addEventListener('show.bs.offcanvas', function(event){
 
-  //reconocer el elemento q habilita el evento modal 
+ 
   let boton = event.relatedTarget
 
   let mensaje = boton.getAttribute('data-titulo')
